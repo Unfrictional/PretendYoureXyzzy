@@ -682,6 +682,60 @@ COPY black_cards (id, draw, pick, text, watermark) FROM stdin;
 578	0	2	I need you like ____ needs ____.	WWW
 579	0	2	Such ____. Very ____. Wow.	WWW
 580	0	1	Nothing says "I love you" like ____.	WWW
+2746	0	1	The System Savvy meetup this year will be ____.	SAVVY
+2747	0	1	"The next game Acat’s going to run is ____, but the ocean."	SAVVY
+2748	0	1	littlebaron accidentally revealed that he is ____ in real life.	SAVVY
+2749	0	2	"In this Microscope session, we are including ____ and banning ____."	SAVVY
+2750	0	1	What should I be on the lookout for? ____	SAVVY
+2751	0	2	What can I do to get ____ to stop ____ ?	SAVVY
+2752	0	1	I have a great character idea: ____	SAVVY
+2753	0	1	"Apropos of nothing, here’s a link to ____."	SAVVY
+2754	0	1	____ is definitely a thing that happened.	SAVVY
+2755	0	1	What should be immolated? ____	SAVVY
+2756	0	1	I’m writing this RPG about ____.	SAVVY
+2757	0	1	You open your brain to the psychic maelstrom. What do you see? ____	SAVVY
+2758	0	1	"Roll + savvy. On a hit, you start ____."	SAVVY
+2759	0	2	"I wanted to try ____. Instead, I got ____."	SAVVY
+2760	0	1	Help! I’m trapped in System Savvy and got sucked into ____!	SAVVY
+2761	0	1	"____! Insight said it, so it’s canon!"	SAVVY
+2762	0	1	What was your character’s lowest moment? ____	SAVVY
+2763	0	1	____. I’m not sorry.	SAVVY
+2764	0	1	"Deep in the System Savvy archives, there is a single post with an idea for a game…the  ____ apocalypse."	SAVVY
+2765	0	1	Acat has been bombarding chat for the last two minutes with pictures of cats and ____.	SAVVY
+2766	0	1	Here’s an idea for a oneshot: ____! It’ll just last one session!	SAVVY
+2767	0	1	"We’re not a cult! But if you keep mentioning ____, we’ll never get new members!"	SAVVY
+2768	0	2	"I’m gonna cosplay____, so I’m gonna need to borrow ____."	SAVVY
+2769	0	2	I just rolled ____ and got a 10+! So now I get  ____	SAVVY
+2770	0	1	I would literally rather play a game about ____ than Lasers and Feelings	SAVVY
+2771	0	1	"Insight, can you give me the GM role? I need to change the name of the gaming channel to ____."	SAVVY
+2772	0	1	"System Savvy: Roll+weird. On a 10+, ____. "	SAVVY
+2773	0	1	"@____, next session in T-3 hours."	SAVVY
+2774	0	1	What’s this week’s top-secret conspiracy? ____	SAVVY
+2775	0	1	Welcome to Savvy University. Our most popular major is ____!	SAVVY
+2776	0	1	"Acat saw ____ last week, so I guess we’re playing that now."	SAVVY
+2777	0	1	What’s everyone playing while pretending to talk to each other? ____	SAVVY
+2778	0	1	I found a new direction for my life. It’s ____.	SAVVY
+2779	0	1	Why were you expelled from the Mages’ Guild? ____	SAVVY
+2780	0	1	What is EV doing while she’s sciencing? ____	SAVVY
+2781	0	1	How did you get away from the Fear Bizarre? ____	SAVVY
+2782	0	1	"For the good of all mankind, Tuckus should never be trusted with ____."	SAVVY
+2783	0	1	"I really like the idea of ____, in theory."	SAVVY
+2784	0	1	____? A large influx of bees ought to put a stop to that.	SAVVY
+2785	0	1	____. I did this.	SAVVY
+2786	0	1	"After the scheduling meeting, there was surprisingly little interest in the game about ____."	SAVVY
+2787	0	1	I’m a god!  How can you kill a god? ____	SAVVY
+2788	0	2	"____ is exactly like ____, apart from the ways they’re different."	SAVVY
+2789	0	1	Is that a monkey? He’s got ____!	SAVVY
+2790	0	1	"If I suddenly lose connection, it’s because I was ____."	SAVVY
+2791	0	1	Turns out ____ is good.	SAVVY
+2792	0	2	"Ok hear me out, what if ____, but ____?"	SAVVY
+2793	0	1	Having to pretend not to enjoy ____ in order to stay in-character.	SAVVY
+2794	0	1	"____? Doesn’t matter, marked XP!"	SAVVY
+2795    0	1	Reach heaven through ____.	SAVVY
+2796	0	1	____. Allan would never have made that mistake.	SAVVY
+2797	0	1	____: The deadliest of the 99 Killing Arts.	SAVVY
+2798	0	1	What was the last thing I saw in the unfathomable eldritch library? ____	SAVVY
+2799	0	1	What happened to Insight after he went AFK on voice? ____	SAVVY
 \.
 
 
@@ -734,6 +788,7 @@ COPY card_set (id, active, base_deck, description, name, weight) FROM stdin;
 2131	t	f	Box Expansion Pack	Box Expansion Pack	30
 2152	t	f	Hidden Compartment Pack	Hidden Compartment Pack	30
 2374	t	f	PAX Prime 2014 Pack	PAX Prime 2014 Pack	107
+2623    t   f   System Savvy Pack   System Savvy    176
 \.
 
 
@@ -1593,6 +1648,60 @@ COPY card_set_black_card (card_set_id, black_card_id) FROM stdin;
 572	573
 572	574
 572	575
+2623	2746
+2623	2747
+2623	2748
+2623	2749
+2623	2750
+2623	2751
+2623	2752
+2623	2753
+2623	2754
+2623	2755
+2623	2756
+2623	2757
+2623	2758
+2623	2759
+2623	2760
+2623	2761
+2623	2762
+2623	2763
+2623	2764
+2623	2765
+2623	2766
+2623	2767
+2623	2768
+2623	2769
+2623	2770
+2623	2771
+2623	2772
+2623	2773
+2623	2774
+2623	2775
+2623	2776
+2623	2777
+2623	2778
+2623	2779
+2623	2780
+2623	2781
+2623	2782
+2623	2783
+2623	2784
+2623	2785
+2623	2786
+2623	2787
+2623	2788
+2623	2789
+2623	2790
+2623	2791
+2623	2792
+2623	2793
+2623	2794
+2623	2795
+2623	2796
+2623	2797
+2623	2798
+2623	2799
 \.
 
 
@@ -5432,6 +5541,128 @@ COPY card_set_white_card (card_set_id, white_card_id) FROM stdin;
 2374	2365
 2374	2366
 2374	2367
+2623	2624
+2623	2625
+2623	2626
+2623	2627
+2623	2628
+2623	2629
+2623	2630
+2623	2631
+2623	2632
+2623	2633
+2623	2634
+2623	2635
+2623	2636
+2623	2637
+2623	2638
+2623	2639
+2623	2640
+2623	2641
+2623	2642
+2623	2643
+2623	2644
+2623	2645
+2623	2646
+2623	2647
+2623	2648
+2623	2649
+2623	2650
+2623	2651
+2623	2652
+2623	2653
+2623	2654
+2623	2655
+2623	2656
+2623	2657
+2623	2658
+2623	2659
+2623	2660
+2623	2661
+2623	2662
+2623	2663
+2623	2664
+2623	2665
+2623	2666
+2623	2667
+2623	2668
+2623	2669
+2623	2670
+2623	2671
+2623	2672
+2623	2673
+2623	2674
+2623	2675
+2623	2676
+2623	2677
+2623	2678
+2623	2679
+2623	2680
+2623	2681
+2623	2682
+2623	2683
+2623	2684
+2623	2685
+2623	2686
+2623	2687
+2623	2688
+2623	2689
+2623	2690
+2623	2691
+2623	2692
+2623	2693
+2623	2694
+2623	2695
+2623	2696
+2623	2697
+2623	2698
+2623	2699
+2623	2700
+2623	2701
+2623	2702
+2623	2703
+2623	2704
+2623	2705
+2623	2706
+2623	2707
+2623	2708
+2623	2709
+2623	2710
+2623	2711
+2623	2712
+2623	2713
+2623	2714
+2623	2715
+2623	2716
+2623	2717
+2623	2718
+2623	2719
+2623	2720
+2623	2721
+2623	2722
+2623	2723
+2623	2724
+2623	2725
+2623	2726
+2623	2727
+2623	2728
+2623	2729
+2623	2730
+2623	2731
+2623	2732
+2623	2733
+2623	2734
+2623	2735
+2623	2736
+2623	2737
+2623	2738
+2623	2739
+2623	2740
+2623	2741
+2623	2742
+2623	2743
+2623	2744
+2623	2745
 \.
 
 
@@ -7481,6 +7712,128 @@ COPY white_cards (id, text, watermark) FROM stdin;
 2620	Game of Thrones spoilers.	WWW
 2621	Cat massage.	WWW
 2622	Matching with Mom on Tinder.	WWW
+2624	Veiled references to kinky sex.	SAVVY
+2625	Around 1.1 Batmen.	SAVVY
+2626	Everybody having a crush on Aetheria.	SAVVY
+2627	Mentioning The Big App-ocalypse around people who never played it.	SAVVY
+2628	Figuring out where Gwen went.	SAVVY
+2629	Another goddamn Apocalypse World campaign.	SAVVY
+2630	"Howard, the friendly space octopus."	SAVVY
+2631	Never running Lasers and Feelings.	SAVVY
+2632	Losing page 27.	SAVVY
+2633	Gaming IN SPACE.	SAVVY
+2634	The palpable homoerotic tension between Tuckus and Wes.	SAVVY
+2635	Self-immolation.	SAVVY
+2636	Being overcome by the ecstatic sensation of “gamer’s delight”.	SAVVY
+2637	An overpowering distaste for D&D.	SAVVY
+2638	Homebrewing yet another one-page RPG instead of working on a proper campaign.	SAVVY
+2639	Cats doing cute cat things.	SAVVY
+2640	The extradimensional spacetime anomaly known only as Wes.	SAVVY
+2641	Cai finally embracing the limitless potential of terrible puns.	SAVVY
+2642	Playing Coup until your eyeballs fall out.	SAVVY
+2643	Finally becoming one of the PAX Peeps.	SAVVY
+2644	Reading the wrong short story for BOOKS.	SAVVY
+2645	Dungeon World: THE ADVENTURE IS REAL.	SAVVY
+2646	A highly enthusiastic guided missile.	SAVVY
+2647	Trying to say something clever or intellectual and spitting out word soup instead.	SAVVY
+2648	Never using the sex move.	SAVVY
+2649	Anything remotely resembling cyberpunk.	SAVVY
+2650	Having flashbacks to high school when you hear Insight’s scarily accurate DJ voice.	SAVVY
+2651	The brownie Cai owes Tuckus.	SAVVY
+2652	Making Spotify playlists with your real name attached.	SAVVY
+2653	Coming up with new ways to say “Burning Wheel”.	SAVVY
+2654	The terrible realization that your mic has been muted the whole time.	SAVVY
+2655	The terrible realization that your mic has NOT been muted the whole time.	SAVVY
+2656	Voice chatting from a hot tub.	SAVVY
+2657	Choosing the wrong playbook for the campaign.	SAVVY
+2658	Polyhedral pastries.	SAVVY
+2659	A horrifying tardigrade-pusheen combo.	SAVVY
+2660	The Secret Service agents tailing Acat and littlebaron. 	SAVVY
+2661	Way too many time zones.	SAVVY
+2662	Getting everyone to fill out the When Is Good.	SAVVY
+2663	System Savvy Goes To The Movies.	SAVVY
+2664	The 372 hyperspace jumps it will take to reach your destination.	SAVVY
+2665	Claiming to be an officer in the Imperial Navy just to get free swag.	SAVVY
+2666	Skippy getting tea during the break.	SAVVY
+2667	Setting the ocean on fire.	SAVVY
+2668	Getting up from your PC while everyone’s waiting for you to read the white cards.	SAVVY
+2669	"PiCat slipping into her Canadian accent, eh?"	SAVVY
+2670	A surprise guest appearance from EV’s cats.	SAVVY
+2671	Assuming someone’s talking to you when they’re really talking to their cat.	SAVVY
+2672	Being the one person in System Savvy without a cat.	SAVVY
+2673	Not naming your cat after a racial slur just to flex on HP Lovecraft.	SAVVY
+2674	"All the inactive members, forever beyond our reach."	SAVVY
+2675	The smooth sounds of an impromptu talk-show hosted by Tuckus the Ruckus and Cai Everlasting.	SAVVY
+2676	Emotional support Tuckus.	SAVVY
+2677	Craig saying “NOW RECORDING” and scaring the shit out of everyone.	SAVVY
+2678	Scheduling the next game at 7 AM instead of 7 PM.	SAVVY
+2679	An incredibly promising plot hook that doesn’t go anywhere.	SAVVY
+2680	Stealing another player’s signature phrase.	SAVVY
+2681	2000% off hot cocoa!	SAVVY
+2682	"Wondering if, someday, you’ll ever be friends with people not over the internet."	SAVVY
+2683	"Shedding your meatsuit to become pure, unshackled data."	SAVVY
+2684	Not really understanding what West Marches is.	SAVVY
+2685	An Eclipse Phase headache. 	SAVVY
+2686	Becoming active on the server and immediately getting the “Game Master” role.	SAVVY
+2687	The summoning name of a ghost burned into your memory.	SAVVY
+2688	A vast and deadly patience.	SAVVY
+2689	Talking over someone who probably had some really good points to make.	SAVVY
+2690	Another inspiring speech by Cai.	SAVVY
+2691	Going to Mars and only getting a lousy T-shirt.	SAVVY
+2692	Yet another joke about Insight’s name.	SAVVY
+2693	Majestic floof.	SAVVY
+2694	Littlebaron’s new moodboard.	SAVVY
+2695	"Poor, poor Kettle."	SAVVY
+2696	Saladin the Paladin.	SAVVY
+2697	Nonstandard space-time.	SAVVY
+2698	“Blindsight” by Peter Watts.	SAVVY
+2699	Way too much C4.	SAVVY
+2700	CYBERCATS.	SAVVY
+2701	DULUTHPUNK!	SAVVY
+2702	NyomCat.	SAVVY
+2703	Boats.	SAVVY
+2704	The conspicuous absence of boats.	SAVVY
+2705	A space opera where every planet only has one biome.	SAVVY
+2706	A sincere affection for Lovecraftian monstrosities.	SAVVY
+2707	Getting in some social interaction today from the comfort of your own bed.	SAVVY
+2708	eV having to dissect too many brains to play an upset teenager.	SAVVY
+2709	Being unable to gauge how upset Keylee is when she says “Rude!”	SAVVY
+2710	The power move that is posting a link to Coup right before everyone was gonna go to bed.	SAVVY
+2711	Realizing you’re roleplaying a scientist or programmer with scientists or programmers.	SAVVY
+2712	The inevitable PiCat NPC cameo.	SAVVY
+2713	Arriving in voice chat just in time for everyone to go to bed.	SAVVY
+2714	The thousands of Kerbal lives at the heart of our country’s space program.	SAVVY
+2715	"A doctor, their ex-wife, an aspiring criminal mastermind, a chainsaw massacre, a whalewitch, and their submarine baby."	SAVVY
+2716	Weird brain stuff.	SAVVY
+2717	Turning into an alien tree.	SAVVY
+2718	Rolling 2d6 + hot.	SAVVY
+2719	Insight’s incurable innuendos.	SAVVY
+2720	Hanging out on voice chat when you have work to do but want to be distracted.	SAVVY
+2721	The one way-time machine of System Savvy voice chat.	SAVVY
+2722	A full story arc collectively told through the medium of puns.	SAVVY
+2723	A surprising lack of familiarity with the source material.	SAVVY
+2724	Standing in the rain making potions for twelve hours.	SAVVY
+2725	Fightamins.	SAVVY
+2726	Wanting to go home.	SAVVY
+2727	Failing the Turing test.	SAVVY
+2728	Narrating mundane dialog while literally burning to death.	SAVVY
+2729	D&DandMe.	SAVVY
+2730	A silent charging elephant.	SAVVY
+2731	Way too much seafloor.	SAVVY
+2732	A grand and intoxicating innocence.	SAVVY
+2733	Skippy churning ice cream during the break.	SAVVY
+2734	Arbitrarily renaming the voice channels.	SAVVY
+2735	Donating your body to magic.	SAVVY
+2736	U.Cat accidentally stumbling upon the correct answer.	SAVVY
+2737	Screaming and German flags everywhere.	SAVVY
+2738	"Unintended consequences, cane toads, British petroleum, and causal loop diagrams."	SAVVY
+2739	Actually having two assassins.	SAVVY
+2740	Almost making out with your clone.	SAVVY
+2741	The Great Rebooking of 2020.	SAVVY
+2742	Guessing which microphone Kaz is coming out of.	SAVVY
+2743	dj keylee feat. based god pablo.	SAVVY
+2744	A mummy fucking a shoggoth.	SAVVY
+2745	Getting tucked in by your friends~	SAVVY
 \.
 
 
@@ -7490,7 +7843,7 @@ COPY white_cards (id, text, watermark) FROM stdin;
 -- Name: hibernate_sequence; Type: SEQUENCE SET; Schema: public; Owner: pyx
 --
 
-SELECT pg_catalog.setval('hibernate_sequence', 2622, true);
+SELECT pg_catalog.setval('hibernate_sequence', 2745, true);
 
 
 --
